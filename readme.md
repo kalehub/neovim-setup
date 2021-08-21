@@ -15,7 +15,7 @@ mkdir .nvim
 3. Go to your .config folder then to the nvim folder (this is the directory where your nvim is installed by homebrew). After that create a file called "init.vim" then paste the code in this repo.
 ```bash
 cd ~/.config/nvim
-vim init.vim
+nvim init.vim
 ```
 4. After you paste the code, save it and install the plugins
 ```bash
@@ -24,7 +24,7 @@ source %
 ```
 5. Ta-da you just finished installing the plugins. To activate your new beautiful Neovim you just need to "source" it again then you'll have it.
 ```bash
-sorce %
+source %
 :PlugInstall
 ```
 
